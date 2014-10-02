@@ -18,7 +18,7 @@ a {
     color: white;
     font-size: 30pt;
     text-decoration: none;
-    padding: 1rem;
+    /*padding: 1rem;*/
 }
 
 header {
@@ -26,8 +26,23 @@ header {
     color: yellow;
     margin: auto;
     padding: 2rem;
+}
 
+.bold {
+    font-weight: 700;
+    display: inline-block;
+    margin: auto;
+    padding: 0;
+}
 
+.not-bold {
+    font-weight: 100;
+    display: inline-block;
+
+}
+
+.login {
+    float: right;
 }
 
 .homepage-buttons {

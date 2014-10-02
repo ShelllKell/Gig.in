@@ -1,12 +1,26 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Giggity</title>
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <title>Gig.in</title>
+  <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
+<header>
+
+  <div class="bold">
+    <%= link_to "GIG", root_path %>
+  </div>
+  <div class="not-bold">
+    <%= link_to ".in", root_path %>
+  </div>
+
+
+<div class="login">
+  <%= link_to "Login", login_path %>
+</div>
+</header>
 
 <%= yield %>
 
