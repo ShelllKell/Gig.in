@@ -1,0 +1,49 @@
+body {
+    background-image: url("http://media-cache-ak0.pinimg.com/736x/20/76/d7/2076d73dab0ff89532086ff75f2be7e9.jpg");
+    background-size: 100%;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    padding-top: 15%;
+    font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+}
+
+a {
+    font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+    color: white;
+    font-size: 30pt;
+    text-decoration: none;
+    padding: 1rem;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: yellow;
+    margin: auto;
+    padding: 2rem;
+
+
+}
+
+.homepage-buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 15%;
+}
+
+.artist_button {
+
+    display: flex;
+
+}
+
+.venue-button {
+    display: flex;
+}

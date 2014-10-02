@@ -1,0 +1,16 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  pool: 5
+
+development:
+  <<: *default
+  database: giggity_development
+
+test:
+  <<: *default
+  database: giggity_test
+
+production:
+  <<: *default
+  database: giggity_production
